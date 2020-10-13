@@ -1,0 +1,21 @@
+.btn {
+    &.btn-outline-white {
+        padding: .5rem 2rem;
+        border: 1px solid white;
+        border-radius: .3rem;
+        color: #fff;
+
+        &:hover {
+            color: #308AF8;
+            background-color: #fff;
+        }
+    }
+    &.btn-white {
+        color: #308AF8;
+        background-color: #fff;
+    }
+    &.btn-xl {
+        padding: .8rem 3.5rem;
+        font-weight: bold;
+    }
+}

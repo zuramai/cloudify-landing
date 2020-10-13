@@ -1,0 +1,26 @@
+.navbar {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left:0;
+    right: 0;
+    padding-top: 2rem;
+    z-index: 3;
+
+    .navbar-brand {
+        img {
+            width: 150px;
+        }
+    }
+
+    .nav-item {
+        margin: 0 1rem;
+        .nav-link {
+            color: #fff;
+            opacity: 70%;
+        }
+        .nav-link.active {
+            opacity: 100%
+        }
+    }
+}
